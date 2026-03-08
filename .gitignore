@@ -128,9 +128,12 @@ dmypy.json
 # Pyre type checker
 .pyre/
 .idea
-tests/
-archivist/
-src/*.json
-user_data_dir/
-logs/
 database/
+.pypirc
+*.dat
+
+tests/.env.example
+tmp/
+docker/volumes
+user_data
+app/volumes
